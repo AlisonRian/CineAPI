@@ -1,0 +1,62 @@
+body{
+   background-color: #1C1C1C;
+}
+textarea{
+    overflow: hidden;
+    resize:  none;
+}
+h1{
+    color: #F5F5F5;
+}
+h2{
+    margin: 10px;
+    color: #F5F5F5;
+}
+h3{
+    margin: 10px;
+}
+.btn-custom {
+    background-color: #E50914 !important; /* Cor personalizada */
+    color: white !important; /* Cor do texto */
+}
+
+.btn-custom:hover {
+    background-color: #8C0A0A !important; /* Cor ao passar o mouse */
+}
+#title-box{
+    display: flex;
+}
+#title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+#search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;        
+    width: 100%;             
+    margin: 20px auto;  
+}
+#filtrarNome{
+    margin-left: 20px;
+    margin-right: 10px;
+    border: none;            
+    padding: 10px 20px;       
+    font-size: 16px;          
+    border-radius: 30px;      
+    width: 80%;              
+    outline: none; 
+}
+th{
+    color: #F5F5F5;
+    text-align: center;
+}
+td{
+    vertical-align: middle;
+}
+thead{
+    width: 100%;
+}
